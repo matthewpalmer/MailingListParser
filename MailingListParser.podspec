@@ -13,10 +13,11 @@ Pod::Spec.new do |s|
   s.summary      = "A MailingListParser."
 
   s.description  = <<-DESC
+                   This is a mailing list parser
                    DESC
 
   s.homepage     = "https://bitbucket.org/_matthewpalmer/mailinglistparser"
-  s.license      = "MIT (example)"
+  s.license      = "MIT"
   s.author             = { "matthewpalmer" => "matt@matthewpalmer.net" }
   s.social_media_url   = "http://twitter.com/_matthewpalmer"
 
