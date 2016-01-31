@@ -47,4 +47,15 @@ class MailingListParserTests: XCTestCase {
         
         XCTAssertEqual(parser.emails.count, 338)
     }
+    
+    func testLongList2() {
+        let bundle = NSBundle(forClass: MailingListMessageParserTests.self)
+        let file = bundle.URLForResource("List-3", withExtension: nil)
+        let data = NSData(contentsOfURL: file!)
+        let list = NSString(data: data!, encoding: NSUTF8StringEncoding)! as String
+        
+        let parser = MailingListParser(string: list)
+        
+        XCTAssertEqual(parser.emails.count, 411)
+    }
 }
