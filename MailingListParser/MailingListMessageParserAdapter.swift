@@ -10,13 +10,13 @@ import Foundation
 
 /// Converts the result of a parsed message to a strongly typed `MailingListMessage`
 public class MailingListMessageParserAdapter: NSObject {
-    let messageParser: MailingListMessageParser
+    public let messageParser: MailingListMessageParser
     
-    init(mailingListMessageParser: MailingListMessageParser) {
+    public init(mailingListMessageParser: MailingListMessageParser) {
         self.messageParser = mailingListMessageParser
     }
     
-    lazy var mailingListMessageHeaders: MailingListMessageHeaders? = {
+    public lazy var mailingListMessageHeaders: MailingListMessageHeaders? = {
         guard let
             from = self.messageParser.from,
             subject = self.messageParser.subject,
@@ -30,7 +30,7 @@ public class MailingListMessageParserAdapter: NSObject {
         return MailingListMessageHeaders(from: from, date: date, subject: subject, inReplyTo: inReplyTo, references: references, messageID: messageID)
     }()
     
-    lazy var mailingListMessage: MailingListMessage? = {
+    public lazy var mailingListMessage: MailingListMessage? = {
         guard let content = self.messageParser.contentString else { return nil }
         guard let headers = self.mailingListMessageHeaders else { return nil }
         return MailingListMessage(headers: headers, content: content)

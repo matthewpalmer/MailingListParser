@@ -9,8 +9,8 @@
 import Foundation
 
 public struct MailingListMessage {
-    let headers: MailingListMessageHeaders
-    let content: String
+    public let headers: MailingListMessageHeaders
+    public let content: String
 }
 
 extension MailingListMessage: Equatable {}

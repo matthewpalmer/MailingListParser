@@ -12,11 +12,11 @@ import UIKit
 public class MailingListParser: NSObject {
     private let string: String
     
-    init(string: String) {
+    public init(string: String) {
         self.string = string
     }
     
-    lazy var emails: [String] = {
+    public lazy var emails: [String] = {
         return (self.string as NSString)
             .componentsSeparatedByString("-------------- next part --------------")
             .map { $0.stringByTrimmingCharactersInSet(NSCharacterSet.newlineCharacterSet()) }

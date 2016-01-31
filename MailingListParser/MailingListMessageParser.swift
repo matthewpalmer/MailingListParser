@@ -12,11 +12,11 @@ import UIKit
 public  class MailingListMessageParser: NSObject {
     private let string: NSString
     
-    init(string: String) {
+    public init(string: String) {
         self.string = string as NSString
     }
     
-    private private(set) lazy var headerRange: NSRange? = {
+    private lazy var headerRange: NSRange? = {
         // Get the first line beginning with "Message-ID:" up until the end of the line
         let pattern = "^Message-ID:.*$"
         let range = NSMakeRange(0, self.string.length)
@@ -32,27 +32,27 @@ public  class MailingListMessageParser: NSObject {
         return self.string.substringWithRange(headerRange)
     }()
 
-    lazy private(set) var from: String? = {
+    lazy public private(set) var from: String? = {
         return self.headerFieldStringValue("From")
     }()
     
-    lazy private(set) var date: String? = {
+    lazy public private(set) var date: String? = {
         return self.headerFieldStringValue("Date")
     }()
     
-    lazy private(set) var subject: String? = {
+    lazy public private(set) var subject: String? = {
         return self.headerFieldStringValue("Subject")
     }()
     
-    lazy private(set) var inReplyTo: String? = {
+    lazy public private(set) var inReplyTo: String? = {
         return self.headerFieldStringValue("In-Reply-To")
     }()
     
-    lazy private(set) var messageID: String? = {
+    lazy public private(set) var messageID: String? = {
         return self.headerFieldStringValue("Message-ID")
     }()
     
-    lazy private(set) var references: String? = {
+    lazy public private(set) var references: String? = {
         return self.headerFieldStringValue("References")
     }()
     
@@ -100,7 +100,7 @@ public  class MailingListMessageParser: NSObject {
         return header.substringWithRange(firstMatch)
     }
     
-    lazy private(set) var contentString: String? = {
+    lazy public private(set) var contentString: String? = {
         guard let headerRange = self.headerRange else { return nil }
         let start = headerRange.location + headerRange.length
         let contentRange = NSMakeRange(start, self.string.length - start)

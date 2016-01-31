@@ -9,12 +9,12 @@
 import Foundation
 
 public struct MailingListMessageHeaders {
-    let from: String
-    let date: String
-    let subject: String
-    let inReplyTo: String?
-    let references: [String]
-    let messageID: String
+    public let from: String
+    public let date: String
+    public let subject: String
+    public let inReplyTo: String?
+    public let references: [String]
+    public let messageID: String
 }
 
 extension MailingListMessageHeaders: Equatable {}
