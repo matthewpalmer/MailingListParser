@@ -8,22 +8,8 @@
 
 import UIKit
 
-struct MailingListMessage {
-    let headers: MailingListMessageHeaders
-    let HTMLContent: String
-}
-
-struct MailingListMessageHeaders {
-    let from: String
-    let date: NSDate
-    let subject: String
-    let inReplyTo: String?
-    let references: [String]
-    let messageID: String
-}
-
 /// Parses a single message in a mailing list format
-class MailingListMessageParser: NSObject {
+public  class MailingListMessageParser: NSObject {
     private let string: NSString
     
     init(string: String) {

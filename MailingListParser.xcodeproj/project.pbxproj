@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		0E017B361C5D6F4F00316E22 /* MailingListParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E73ECEF1C5B32850037F5A7 /* MailingListParser.swift */; };
+		0E017B381C5D7FCD00316E22 /* MailingListMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E017B371C5D7FCD00316E22 /* MailingListMessage.swift */; };
+		0E017B391C5D7FCD00316E22 /* MailingListMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E017B371C5D7FCD00316E22 /* MailingListMessage.swift */; };
+		0E017B3B1C5D7FE400316E22 /* MailingListMessageHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E017B3A1C5D7FE400316E22 /* MailingListMessageHeaders.swift */; };
+		0E017B3C1C5D7FE400316E22 /* MailingListMessageHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E017B3A1C5D7FE400316E22 /* MailingListMessageHeaders.swift */; };
+		0E017B3E1C5D7FF400316E22 /* MailingListMessageParserAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E017B3D1C5D7FF400316E22 /* MailingListMessageParserAdapter.swift */; };
+		0E017B3F1C5D7FF400316E22 /* MailingListMessageParserAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E017B3D1C5D7FF400316E22 /* MailingListMessageParserAdapter.swift */; };
 		0E73ECE81C5B32710037F5A7 /* MailingListParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E73ECE71C5B32710037F5A7 /* MailingListParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0E73ECF01C5B32850037F5A7 /* MailingListParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E73ECEF1C5B32850037F5A7 /* MailingListParser.swift */; };
 		0E73ECF81C5B329C0037F5A7 /* MailingListParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E73ECF71C5B329C0037F5A7 /* MailingListParserTests.swift */; };
@@ -30,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E017B371C5D7FCD00316E22 /* MailingListMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailingListMessage.swift; sourceTree = "<group>"; };
+		0E017B3A1C5D7FE400316E22 /* MailingListMessageHeaders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailingListMessageHeaders.swift; sourceTree = "<group>"; };
+		0E017B3D1C5D7FF400316E22 /* MailingListMessageParserAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailingListMessageParserAdapter.swift; sourceTree = "<group>"; };
 		0E73ECE41C5B32710037F5A7 /* MailingListParser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MailingListParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E73ECE71C5B32710037F5A7 /* MailingListParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MailingListParser.h; sourceTree = "<group>"; };
 		0E73ECE91C5B32710037F5A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -79,6 +88,9 @@
 				0E73ECE71C5B32710037F5A7 /* MailingListParser.h */,
 				0E73ECEF1C5B32850037F5A7 /* MailingListParser.swift */,
 				0E73ED041C5B334B0037F5A7 /* MailingListMessageParser.swift */,
+				0E017B3D1C5D7FF400316E22 /* MailingListMessageParserAdapter.swift */,
+				0E017B371C5D7FCD00316E22 /* MailingListMessage.swift */,
+				0E017B3A1C5D7FE400316E22 /* MailingListMessageHeaders.swift */,
 				0E73ECE91C5B32710037F5A7 /* Info.plist */,
 			);
 			path = MailingListParser;
@@ -205,8 +217,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E017B3E1C5D7FF400316E22 /* MailingListMessageParserAdapter.swift in Sources */,
+				0E017B3B1C5D7FE400316E22 /* MailingListMessageHeaders.swift in Sources */,
 				0E73ED051C5B334B0037F5A7 /* MailingListMessageParser.swift in Sources */,
 				0E73ECF01C5B32850037F5A7 /* MailingListParser.swift in Sources */,
+				0E017B381C5D7FCD00316E22 /* MailingListMessage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,7 +229,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E017B3C1C5D7FE400316E22 /* MailingListMessageHeaders.swift in Sources */,
 				0E017B361C5D6F4F00316E22 /* MailingListParser.swift in Sources */,
+				0E017B3F1C5D7FF400316E22 /* MailingListMessageParserAdapter.swift in Sources */,
+				0E017B391C5D7FCD00316E22 /* MailingListMessage.swift in Sources */,
 				0E73ED071C5B335C0037F5A7 /* MailingListMessageParserTests.swift in Sources */,
 				0E73ED081C5B348E0037F5A7 /* MailingListMessageParser.swift in Sources */,
 				0E73ECF81C5B329C0037F5A7 /* MailingListParserTests.swift in Sources */,

@@ -9,7 +9,7 @@
 import UIKit
 
 /// Splits up a collection of emails in a mailing list
-class MailingListParser: NSObject {
+public class MailingListParser: NSObject {
     private let string: String
     
     init(string: String) {
