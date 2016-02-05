@@ -21,10 +21,12 @@ public class MailingListMessageParserAdapter: NSObject {
             from = self.messageParser.from,
             subject = self.messageParser.subject,
             messageID = self.messageParser.messageID,
-            date = self.messageParser.date,
-            referencesString = self.messageParser.references
-            else { return nil }
+            date = self.messageParser.date
+            else {
+                return nil
+        }
         
+        let referencesString = self.messageParser.references ?? ""
         let references = self.referencesStringToList(referencesString)
         let inReplyTo = self.messageParser.inReplyTo
         return MailingListMessageHeaders(from: from, date: date, subject: subject, inReplyTo: inReplyTo, references: references, messageID: messageID)
