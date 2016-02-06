@@ -77,7 +77,8 @@ public  class MailingListMessageParser: NSObject {
         for line in lines {
             if line.hasPrefix(" ") || line.hasPrefix("\t") {
                 var last = flattenedLines.popLast() ?? ""
-                last.appendContentsOf(line)
+                let noTabs = line.stringByReplacingOccurrencesOfString("\t", withString: " ")
+                last.appendContentsOf(noTabs)
                 flattenedLines.append(last)
             } else {
                 flattenedLines.append(line)

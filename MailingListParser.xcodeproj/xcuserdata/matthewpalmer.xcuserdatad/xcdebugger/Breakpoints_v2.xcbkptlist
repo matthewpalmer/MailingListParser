@@ -90,11 +90,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MailingListParser/MailingListMessageParser.swift"
-            timestampString = "475889876.202606"
+            timestampString = "476423462.002199"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "104"
-            endingLineNumber = "104"
+            startingLineNumber = "105"
+            endingLineNumber = "105"
             landmarkName = "contentString"
             landmarkType = "19">
             <Locations>
@@ -154,11 +154,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MailingListParser/MailingListMessageParser.swift"
-            timestampString = "475889876.202606"
+            timestampString = "476423462.002199"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "100"
-            endingLineNumber = "100"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
             landmarkName = "headerFieldStringValue(_:)"
             landmarkType = "5">
             <Locations>
@@ -265,11 +265,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MailingListParser/MailingListMessageParser.swift"
-            timestampString = "475889876.202606"
+            timestampString = "476423462.002199"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "92"
-            endingLineNumber = "92"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
             landmarkName = "headerFieldStringValue(_:)"
             landmarkType = "5">
             <Locations>
@@ -510,6 +510,213 @@
             endingLineNumber = "47"
             landmarkName = "testLongList()"
             landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MailingListParserTests/MailingListMessageParserTests.swift"
+            timestampString = "476423803.442215"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "testThorsten()"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MailingListParserTests.MailingListMessageParserTests.testThorsten (MailingListParserTests.MailingListMessageParserTests)() -&gt; ()"
+                  moduleName = "MailingListParserTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/matthewpalmer/dev/ios/MailingListParser/MailingListParserTests/MailingListMessageParserTests.swift"
+                  timestampString = "476422984.960926"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "73"
+                  endingLineNumber = "73"
+                  offsetFromSymbolStart = "1357">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MailingListParserTests.MailingListMessageParserTests.(testThorsten (MailingListParserTests.MailingListMessageParserTests) -&gt; () -&gt; ()).(implicit closure #1)"
+                  moduleName = "MailingListParserTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/matthewpalmer/dev/ios/MailingListParser/MailingListParserTests/MailingListMessageParserTests.swift"
+                  timestampString = "476422984.961457"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "73"
+                  endingLineNumber = "73"
+                  offsetFromSymbolStart = "25">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MailingListParserTests.MailingListMessageParserTests.(testThorsten (MailingListParserTests.MailingListMessageParserTests) -&gt; () -&gt; ()).(implicit closure #2)"
+                  moduleName = "MailingListParserTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/matthewpalmer/dev/ios/MailingListParser/MailingListParserTests/MailingListMessageParserTests.swift"
+                  timestampString = "476422984.962191"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "73"
+                  endingLineNumber = "73"
+                  offsetFromSymbolStart = "30">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MailingListParser/MailingListMessageParser.swift"
+            timestampString = "476423462.002199"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "headerFieldStringValue(_:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MailingListParserTests.MailingListMessageParser.(headerFieldStringValue in _5BDB914BDCED4A197E9DB7F698A4F791) (MailingListParserTests.MailingListMessageParser)(Swift.String) -&gt; Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "MailingListParserTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/matthewpalmer/dev/ios/MailingListParser/MailingListParser/MailingListMessageParser.swift"
+                  timestampString = "476424030.256008"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MailingListParser.MailingListMessageParser.(headerFieldStringValue in _6B06436A2864A7F786BCBAC3ECC29EDB) (MailingListParser.MailingListMessageParser)(Swift.String) -&gt; Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "MailingListParser"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/matthewpalmer/dev/ios/MailingListParser/MailingListParser/MailingListMessageParser.swift"
+                  timestampString = "476424030.279099"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92"
+                  offsetFromSymbolStart = "80">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MailingListParser/MailingListMessageParser.swift"
+            timestampString = "476423131.594376"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "flattenedHeaderString"
+            landmarkType = "19">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MailingListParserTests.MailingListMessageParser.((flattenedHeaderString in _5BDB914BDCED4A197E9DB7F698A4F791).getter : Swift.Optional&lt;Swift.String&gt;).(closure #1)"
+                  moduleName = "MailingListParserTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/matthewpalmer/dev/ios/MailingListParser/MailingListParser/MailingListMessageParser.swift"
+                  timestampString = "476423511.705053"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "812">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MailingListParser.MailingListMessageParser.((flattenedHeaderString in _6B06436A2864A7F786BCBAC3ECC29EDB).getter : Swift.Optional&lt;Swift.String&gt;).(closure #1)"
+                  moduleName = "MailingListParser"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/matthewpalmer/dev/ios/MailingListParser/MailingListParser/MailingListMessageParser.swift"
+                  timestampString = "476423511.707618"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "812">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MailingListParser/MailingListMessageParser.swift"
+            timestampString = "476423462.002199"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "flattenedHeaderString"
+            landmarkType = "19">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MailingListParserTests.MailingListMessageParser.((flattenedHeaderString in _5BDB914BDCED4A197E9DB7F698A4F791).getter : Swift.Optional&lt;Swift.String&gt;).(closure #1)"
+                  moduleName = "MailingListParserTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/matthewpalmer/dev/ios/MailingListParser/MailingListParser/MailingListMessageParser.swift"
+                  timestampString = "476424030.256564"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "88"
+                  endingLineNumber = "88"
+                  offsetFromSymbolStart = "2678">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MailingListParser.MailingListMessageParser.((flattenedHeaderString in _6B06436A2864A7F786BCBAC3ECC29EDB).getter : Swift.Optional&lt;Swift.String&gt;).(closure #1)"
+                  moduleName = "MailingListParser"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/matthewpalmer/dev/ios/MailingListParser/MailingListParser/MailingListMessageParser.swift"
+                  timestampString = "476424030.279627"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "88"
+                  endingLineNumber = "88"
+                  offsetFromSymbolStart = "2678">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

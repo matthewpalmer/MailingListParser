@@ -39,6 +39,6 @@ public class MailingListMessageParserAdapter: NSObject {
     }()
     
     private func referencesStringToList(from: String) -> [String] {
-        return (from as NSString).componentsSeparatedByString("\t")
+        return (from as NSString).componentsSeparatedByCharactersInSet(NSCharacterSet.whitespaceCharacterSet())
     }
 }
