@@ -19,6 +19,7 @@
 		0E017B501C5E0D1B00316E22 /* List-3 in Resources */ = {isa = PBXBuildFile; fileRef = 0E017B4F1C5E0D1B00316E22 /* List-3 */; };
 		0E017B511C5E0D1B00316E22 /* List-3 in Resources */ = {isa = PBXBuildFile; fileRef = 0E017B4F1C5E0D1B00316E22 /* List-3 */; };
 		0E1A2A161C65A2AB00003D98 /* Message-2 in Resources */ = {isa = PBXBuildFile; fileRef = 0E1A2A151C65A2AB00003D98 /* Message-2 */; };
+		0E1A2A181C65A8B700003D98 /* List-4 in Resources */ = {isa = PBXBuildFile; fileRef = 0E1A2A171C65A8B700003D98 /* List-4 */; };
 		0E73ECE81C5B32710037F5A7 /* MailingListParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E73ECE71C5B32710037F5A7 /* MailingListParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0E73ECF01C5B32850037F5A7 /* MailingListParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E73ECEF1C5B32850037F5A7 /* MailingListParser.swift */; };
 		0E73ECF81C5B329C0037F5A7 /* MailingListParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E73ECF71C5B329C0037F5A7 /* MailingListParserTests.swift */; };
@@ -47,6 +48,7 @@
 		0E017B4C1C5DFE6C00316E22 /* List-2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "List-2"; sourceTree = "<group>"; };
 		0E017B4F1C5E0D1B00316E22 /* List-3 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "List-3"; sourceTree = "<group>"; };
 		0E1A2A151C65A2AB00003D98 /* Message-2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Message-2"; sourceTree = "<group>"; };
+		0E1A2A171C65A8B700003D98 /* List-4 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "List-4"; sourceTree = "<group>"; };
 		0E73ECE41C5B32710037F5A7 /* MailingListParser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MailingListParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E73ECE71C5B32710037F5A7 /* MailingListParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MailingListParser.h; sourceTree = "<group>"; };
 		0E73ECE91C5B32710037F5A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 				0E73ED021C5B331B0037F5A7 /* List-1 */,
 				0E017B4C1C5DFE6C00316E22 /* List-2 */,
 				0E017B4F1C5E0D1B00316E22 /* List-3 */,
+				0E1A2A171C65A8B700003D98 /* List-4 */,
 				0E73ECF91C5B329C0037F5A7 /* Info.plist */,
 			);
 			path = MailingListParserTests;
@@ -223,6 +226,7 @@
 				0E017B511C5E0D1B00316E22 /* List-3 in Resources */,
 				0E73ED011C5B32D50037F5A7 /* Message-1 in Resources */,
 				0E1A2A161C65A2AB00003D98 /* Message-2 in Resources */,
+				0E1A2A181C65A8B700003D98 /* List-4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

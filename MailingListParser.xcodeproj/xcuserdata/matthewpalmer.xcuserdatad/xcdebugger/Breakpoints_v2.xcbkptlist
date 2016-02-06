@@ -578,7 +578,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MailingListParser/MailingListMessageParser.swift"
@@ -591,14 +591,14 @@
             landmarkType = "5">
             <Locations>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "MailingListParserTests.MailingListMessageParser.(headerFieldStringValue in _5BDB914BDCED4A197E9DB7F698A4F791) (MailingListParserTests.MailingListMessageParser)(Swift.String) -&gt; Swift.Optional&lt;Swift.String&gt;"
                   moduleName = "MailingListParserTests"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/matthewpalmer/dev/ios/MailingListParser/MailingListParser/MailingListMessageParser.swift"
-                  timestampString = "476424030.256008"
+                  timestampString = "476424342.483631"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "92"
@@ -606,14 +606,14 @@
                   offsetFromSymbolStart = "80">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "MailingListParser.MailingListMessageParser.(headerFieldStringValue in _6B06436A2864A7F786BCBAC3ECC29EDB) (MailingListParser.MailingListMessageParser)(Swift.String) -&gt; Swift.Optional&lt;Swift.String&gt;"
                   moduleName = "MailingListParser"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/matthewpalmer/dev/ios/MailingListParser/MailingListParser/MailingListMessageParser.swift"
-                  timestampString = "476424030.279099"
+                  timestampString = "476424342.497364"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "92"
@@ -674,7 +674,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MailingListParser/MailingListMessageParser.swift"
@@ -687,14 +687,14 @@
             landmarkType = "19">
             <Locations>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "MailingListParserTests.MailingListMessageParser.((flattenedHeaderString in _5BDB914BDCED4A197E9DB7F698A4F791).getter : Swift.Optional&lt;Swift.String&gt;).(closure #1)"
                   moduleName = "MailingListParserTests"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/matthewpalmer/dev/ios/MailingListParser/MailingListParser/MailingListMessageParser.swift"
-                  timestampString = "476424030.256564"
+                  timestampString = "476424342.493897"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "88"
@@ -702,14 +702,14 @@
                   offsetFromSymbolStart = "2678">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "MailingListParser.MailingListMessageParser.((flattenedHeaderString in _6B06436A2864A7F786BCBAC3ECC29EDB).getter : Swift.Optional&lt;Swift.String&gt;).(closure #1)"
                   moduleName = "MailingListParser"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/matthewpalmer/dev/ios/MailingListParser/MailingListParser/MailingListMessageParser.swift"
-                  timestampString = "476424030.279627"
+                  timestampString = "476424342.498095"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "88"
@@ -717,6 +717,38 @@
                   offsetFromSymbolStart = "2678">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MailingListParserTests/MailingListParserTests.swift"
+            timestampString = "476424562.025992"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "testWeirdList()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MailingListParserTests/MailingListParserTests.swift"
+            timestampString = "476424552.871615"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "testWeirdList()"
+            landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

@@ -58,4 +58,17 @@ class MailingListParserTests: XCTestCase {
         
         XCTAssertEqual(parser.emails.count, 411)
     }
+    
+    func testWeirdList() {
+        let bundle = NSBundle(forClass: MailingListMessageParserTests.self)
+        let file = bundle.URLForResource("List-4", withExtension: nil)
+        let data = NSData(contentsOfURL: file!)
+        let list = NSString(data: data!, encoding: NSUTF8StringEncoding)! as String
+        
+        parser = MailingListParser(string: list)
+        
+        let thorston = parser.emails[2]
+        let messageParser = MailingListMessageParser(string: thorston)
+        
+    }
 }
