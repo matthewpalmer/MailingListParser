@@ -21,9 +21,8 @@ Pod::Spec.new do |s|
   s.author             = { "matthewpalmer" => "matt@matthewpalmer.net" }
   s.social_media_url   = "http://twitter.com/_matthewpalmer"
 
-  s.platform     = :ios
-  s.platform     = :ios, "8.0"
-
+  s.ios.deployment_target = '8.0'
+  s.osx.deployment_target = '10.10'
   s.source       = { :git => "https://_matthewpalmer@bitbucket.org/_matthewpalmer/mailinglistparser.git", :tag => "0.0.2" }
   s.source_files  = "MailingListParser", "MailingListParser/**/*.{h,m}"
   s.requires_arc = true

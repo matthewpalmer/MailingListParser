@@ -6,7 +6,7 @@
 //  Copyright © 2016 Matthew Palmer. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
 /// Parses a single message in a mailing list format
 public  class MailingListMessageParser: NSObject {

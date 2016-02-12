@@ -6,7 +6,7 @@
 //  Copyright © 2016 Matthew Palmer. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
 /// Splits up a collection of emails in a mailing list
 public class MailingListParser: NSObject {
