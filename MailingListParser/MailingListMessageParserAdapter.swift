@@ -26,10 +26,13 @@ public class MailingListMessageParserAdapter: NSObject {
                 return nil
         }
         
-        let referencesString = self.messageParser.references ?? ""
+        let messageIDDelimiterSet = NSCharacterSet(charactersInString: "<>")
+        
+        let referencesString = (self.messageParser.references ?? "")
         let references = self.referencesStringToList(referencesString)
-        let inReplyTo = self.messageParser.inReplyTo
-        return MailingListMessageHeaders(from: from, date: date, subject: subject, inReplyTo: inReplyTo, references: references, messageID: messageID.stringByTrimmingCharactersInSet(NSCharacterSet(charactersInString: "<>")))
+            .map { $0.stringByTrimmingCharactersInSet(messageIDDelimiterSet) }
+        let inReplyTo = self.messageParser.inReplyTo?.stringByTrimmingCharactersInSet(messageIDDelimiterSet)
+        return MailingListMessageHeaders(from: from, date: date, subject: subject, inReplyTo: inReplyTo, references: references, messageID: messageID.stringByTrimmingCharactersInSet(messageIDDelimiterSet))
     }()
     
     public lazy var mailingListMessage: MailingListMessage? = {
